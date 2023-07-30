@@ -1,6 +1,7 @@
 #include "AirConditioner.h"
 #include <iostream>
 
+
 AirConditioner::AirConditioner(Car& car) : car_(car), is_on_(false) {}
 
 void AirConditioner::turn_on()

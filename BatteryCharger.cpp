@@ -1,4 +1,5 @@
 #include "BatteryCharger.h"
+
 #include <iostream>
 
 BatteryCharger::BatteryCharger(Car& car) : car_(car), is_on_(false) {}

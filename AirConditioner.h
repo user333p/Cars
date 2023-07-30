@@ -3,6 +3,8 @@
 #include "Car.h"
 #include <atomic>
 
+class Car;
+
 class AirConditioner {
 public:
     AirConditioner(Car& car);

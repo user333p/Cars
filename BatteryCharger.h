@@ -3,6 +3,8 @@
 #include "Car.h"
 #include <atomic>
 
+class Car;
+
 class BatteryCharger {
 public:
     BatteryCharger(Car& car);
